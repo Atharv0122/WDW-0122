@@ -1,2 +1,6 @@
 *.exe
 .vscode/
+CPP/
+WDW/
+practice.cpp
+# Ignore compiled binaries
