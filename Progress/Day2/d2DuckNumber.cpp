@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-    //This code is for finding duck numbers by arcor
+    //This code is for checking duck numbers by arcor
     int a,n;
     cin>>n;
     bool zero=false;
