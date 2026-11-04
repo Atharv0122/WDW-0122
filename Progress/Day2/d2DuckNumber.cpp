@@ -2,9 +2,22 @@
 using namespace std;
 
 int main() {
-    int a,n,org;
+    //This code is for finding duck numbers by arcor
+    int a,n;
     cin>>n;
-    org=n;
-    
+    bool zero=false;
+    while (n>0)
+    {
+        if (n%10==0){
+            zero=true;
+        }       
+        n/=10;
+    }
+    if (zero){
+        cout<<"Duck";
+    }
+    else {
+        cout<<"Not Duck";
+    }
     return 0;
 }
