@@ -1,6 +1,8 @@
 *.exe
 .vscode/
 CPP/
+Python/
 WDW/
 practice.cpp
+practice.py
 # Ignore compiled binaries
