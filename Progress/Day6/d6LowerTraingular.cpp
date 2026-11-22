@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-    //This code is for finding even naturals between 1 to N by arcor
+    //This code is for Lower Traingular by arcor
     int n;
     cin>>n;
     for(int i=1;i<=n;i++){
